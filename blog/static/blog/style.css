@@ -1,0 +1,58 @@
+/**
+ * @Author: Ibrahim Salihu Yusuf <yusuf>
+ * @Date:   2020-03-21T07:40:30+02:00
+ * @Email:  sibrahim1396@gmail.com
+ * @Last modified by:   yusuf
+ * @Last modified time: 2020-03-25T16:51:20+02:00
+*/
+ body {
+ /* font-family: "Roboto", sans-serif; */
+ font-family: 'Baloo Chettan 2', cursive;
+ font-size: 19px;
+ /* background-color: #fdfdfd; */
+ /* background: white url("images/4314.jpg") no-repeat;
+ background-size: cover; */
+ }
+ .shadow {
+     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+ }
+ .btn-danger {
+     color: #fff;
+     background-color: #f00000;
+     border-color: #dc281e;
+ }
+ .masthead {
+     background: #3398E1;
+     height: auto;
+     padding-bottom: 15px;
+     box-shadow: 0 16px 48px #E3E7EB;
+     padding-top: 10px;
+ }
+
+ .card{
+     box-shadow: 0 16px 48px #E3E7EB;
+ }
+
+
+ .head_text {
+     color: white;
+ }
+
+.fa{
+  font-size:24px;
+  padding: 5px;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+
+.fm{
+  margin-top: 1.3em;
+
+}
+
+.abt-img{
+  width: 50%;
+  padding-left: auto;
+  padding-right: auto;
+}

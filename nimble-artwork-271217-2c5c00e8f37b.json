@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nimble-artwork-271217",
+  "private_key_id": "2c5c00e8f37b8c12dea794db3b00d389f06eacfc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7CwI4Mq4dzUXb\nwTIXXahM06+IwLUCoksEHd5OSdM1h5iFB0Rca/lNqUZV56g1/FUBVQdNFg6dS5+y\npLZ1+GaJBMv8FVE+BJWGjDkrz5Rl4LQBxVwuf5hDUl6w8GsaO9ukzE8uQrbnYYwN\nOB4hSHRhfsw8zkiFNnZpJNRXvkeT9GKGlhf4Tdk5mdmSxCxQJWu7c5a5t6xgy7p2\n6fRbs8RFnaMe9ix6C3B9rxoSA1NfmD1rMZRDXxeWAAxDP0PmATS9rqSOfuExbnmP\nIPpXja4rVkSTzP2he0zgpeYJVD0SY26IysXnOYYRrpW3FlQkUDD2kQZB4fe1s8PF\n9Stvl6MLAgMBAAECggEAPDt80P0dDfLLIsvRpi2eY3MtzUOFZt49ewtlSd/DOLM8\nPeaLsJmCtGwk/sf1ZsEl3KJ1kfDe7u9p83zQVygRWOFnEPwKaAbQ4f2o8X9Mwgv8\n268jEsQ7E77kSGV7j/yjrCuw+ew4+0Tx9VXTehNbiwPqoFArkV5q/kwCZ2kaor2b\ngn9QtLemaGibuZ9RexQqeo174cuIjqkPUhyw+Iy3ZFVdUii1Os65JY3DwXrMh6VK\nPFg3zKVnjhHu8A6eHQBsNMwihgh1/bEoE9UkG5uAAVd4tWcPhbTXHEsQ7k/kQnJM\nozHpeYPlpzVrAbMnBl2rMLHplPwrgV3aXMSE30MXRQKBgQD6PXQwPuwQ0Eq7pWqo\nKFPEw3DpX5U6wzBC8wkQR30LNb3RGsanV21RzrUgWxN2BAWeLN7quYSRnlw790Hj\nIFNmm0FiplQXr7Roro8kRfM1JeiIsefUP1mU+hVqRISWKvu2hIKY/xGhEMYiECR8\npHTZaa6o5F8DATtrTGnXxavwdwKBgQC/WSodYys+jUlqBD0Zpfhpzly2tpEpyOqc\nKglhV/6cFSK6bEkx3iyO64sPW5pEtohX3LZh1srd8Pl7hQND3ui8olWvS1Mvqiq1\nfsF/A5RmdswG2Rj58f2PiskqLuEHCXvm/ZwaA9zRuLDFnSdc+p+ThGdvTQecZbR1\nrTOnm1c7DQKBgFECU/rKY+GNjKPyiPSnGXc5TfQ+3TCIv7bstqJugix+2VQ4Ntc1\nlk5FfJ1c3o/1/VuXaxLRu/joKzO+d7XvYRB2clRdRBvm5aB94hj8DB/Ihd66uTIc\n0ANKcmRUiheTEqmjfCPLbwmVRI8Cas1u7+TyMXi7dYajf3jc4+bWNzNBAoGAcP4K\nLIhfBPURoRUXr4meg3xkq1BrsC0AvW7lUyJPK4Qfmc5P+q6jyVG2MD97fY/8O0YO\nPQBFk4G1EQeewfljneCOkJD+cmseBUbwpDxM6aTFHlYctZv8i0L9P3enUix7ig/A\nmmwlfYJ+gHMox3MHwGizW7o1AFneko7QrezBOhECgYB8Rg7rCRkcxgF78mrxAKGp\nC9wpw1YbDh8D3GUNiUUBpJKfroG90POo55FOKj/3f6ose09D7Hl4Em/MZN6lFX9n\nnqqRixkmaoz11QZE3Sm/oORCudMmdrhxnNL8yvnPqr3A2ZXP3ATIciHbgp4RcX6p\ndz9tlYQzYzougWzgd6mYPg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage@nimble-artwork-271217.iam.gserviceaccount.com",
+  "client_id": "108685850910994734672",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage%40nimble-artwork-271217.iam.gserviceaccount.com"
+}

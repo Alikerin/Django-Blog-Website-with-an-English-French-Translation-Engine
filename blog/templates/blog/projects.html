@@ -1,0 +1,20 @@
+{% extends "blog/base_site.html" %}
+{% block content2 %}
+<div class="container">
+  <div class="row">
+      <!-- Blog Entries Column -->
+      <div class="col-md-12 mt-3 left">
+          {% for project in project_list %}
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">{{ project.title }}</h2>
+                  <p class="card-text text-muted h6">{{ project.status }} | {{ project.created_on}} </p>
+                  <img src="{{ project.image.url }}" class="card-img-top">
+                  <p class="card-text">{{project.description|slice:":500" | safe}}</p>
+                  <a href="{%url 'project_detail' project.slug%}" class="btn btn-primary">Learn More &rarr;</a>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+</div>
+{%endblock%}

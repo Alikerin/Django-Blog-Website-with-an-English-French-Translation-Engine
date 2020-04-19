@@ -1,0 +1,28 @@
+
+version: '3'
+
+services:
+  db:
+    image: mysql:latest
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    volumes:
+      - "./mysqld:/var/lib/mysql"
+    ports:
+      - "3309:3309"
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=Alikerin91137!
+      - MYSQL_DATABASE=blog_db
+      - MYSQL_USER=root
+  web:
+    restart: always
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_USER=${DATABASE_USER}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}

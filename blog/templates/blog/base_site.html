@@ -1,0 +1,28 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}">
+
+<header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading text-center">
+                    <h3 class=" site-heading my-4 mt-3 text-white"> {{heading}} </h3>
+                    <p class="text-light">{{heading_text}} &nbsp
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% block content2 %}
+<!-- Content Goes here -->
+{% endblock content2 %}
+{%endblock%}
+
+{% block javascript %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+{% endblock javascript %}
